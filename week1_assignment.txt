@@ -17,4 +17,4 @@ We use `.gitignore` to prevent unnecessary or sensitive files from being added t
 Ruff is a Python linter and formatter tool. It checks the code for common issues such as syntax problems, unused variables, bad imports, style violations, and some quality issues that can lead to bugs. In this project, running `ruff check .` verifies that the code meets the configured Python quality rules.
 
 Short summary:
-A virtual environment keeps dependencies isolated, `app.main:app` points Uvicorn to the FastAPI app, the `/health` endpoint confirms the service is alive, automated tests are more reliable than manual browser checks, `.gitignore` keeps the repo clean, and Ruff helps catch code quality problems before they become bigger issues.
+A virtual environment keeps dependencies isolated, `app.main:app` points Uvicorn to the FastAPI app, the `/health` endpoint confirms the service is alive, automated tests are more reliable than manual browser checks, `.gitignore` keeps the repo clean, and Ruff helps catch code quality problems before they become bigger issues
